@@ -24,8 +24,10 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define MATRIX_ROW_PINS { GP5, GP6, GP7, GP8, GP9, GP10, GP11 }
 #define MATRIX_COL_PINS { GP4, GP25, GP24, GP29, GP28, GP27, GP26 }
 
+#define SERIAL_USART_FULL_DUPLEX
+#define SERIAL_USART_TX_PIN GP0
+#define SERIAL_USART_RX_PIN GP1
 
-#define SOFT_SERIAL_PIN GP1
 
 /* Reset */
 #define RP2040_BOOTLOADER_DOUBLE_TAP_RESET
