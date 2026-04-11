@@ -1,0 +1,14 @@
+# Build Options
+#   change yes to no to disable
+
+AUDIO_SUPPORTED = no
+RGB_MATRIX_SUPPORTED = no
+RGBLIGHT_SUPPORTED = no
+BOOTMAGIC_ENABLE = no
+EXTRAKEY_ENABLE = no
+SPLIT_KEYBOARD = yes
+SERIAL_DRIVER = vendor
+#BOOTLOADER = uf2boot
+
+VIA_ENABLE = no
+CONSOLE_ENABLE=yes
