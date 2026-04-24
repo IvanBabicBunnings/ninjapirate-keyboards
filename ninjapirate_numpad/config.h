@@ -20,7 +20,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 /* Keyboard matrix assignments */
 #define MATRIX_ROW_PINS { GP2, GP3, GP4, GP5, GP6, GP7 }
-#define MATRIX_COL_PINS { GP24, GP28, GP27, GP26, GP10 }
+#define MATRIX_COL_PINS { GP29, GP28, GP27, GP26, GP10 }
 
 /* Encoders */
 #define ENCODERS_PAD_A { GP8 }
