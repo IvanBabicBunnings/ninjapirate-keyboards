@@ -19,18 +19,18 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #pragma once
 
 /* Keyboard matrix assignments */
-#define MATRIX_ROW_PINS { GP4, GP5, GP6, GP7, GP8, GP9 }
-#define MATRIX_COL_PINS { GP26, GP18, GP20, GP19, GP10 }
+#define MATRIX_ROW_PINS { GP2, GP3, GP4, GP5, GP6, GP7 }
+#define MATRIX_COL_PINS { GP24, GP28, GP27, GP26, GP10 }
 
 /* Encoders */
-#define ENCODERS_PAD_A { GP2 }
-#define ENCODERS_PAD_B { GP3 }
+#define ENCODERS_PAD_A { GP8 }
+#define ENCODERS_PAD_B { GP9 }
 
 /* Trackball */
 #define SPI_DRIVER SPID0
-#define SPI_SCK_PIN GP29
-#define SPI_MISO_PIN GP28
-#define SPI_MOSI_PIN GP27
+#define SPI_SCK_PIN GP18
+#define SPI_MISO_PIN GP20
+#define SPI_MOSI_PIN GP19
 #define POINTING_DEVICE_CS_PIN GP1
 #define ROTATIONAL_TRANSFORM_ANGLE -30 // Optional: Rotates the trackball
 #define POINTING_DEVICE_INVERT_X // Optional: Inverts trackball X

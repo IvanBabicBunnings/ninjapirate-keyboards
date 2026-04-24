@@ -9,21 +9,21 @@ void keyboard_post_init_user(void) {
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   [0] = LAYOUT(
-		KC_LGUI(KC_LSFT(KC_S)),   KC_GRV,  KC_PSLS, KC_PAST,  KC_PMNS,
-        KC_LCTL(KC_LSFT(KC_ESC)), KC_7,    KC_8,    KC_9,     KC_PPLS,
-        KC_LCTL(KC_S)),           KC_4,    KC_5,    KC_6,
-		KC_LCAP,                  KC_1,    KC_2,    KC_3,     KC_PENT,
-		MS_BTN3,                  KC_0,    KC_DOT,
-		MS_BTN2,                  MS_BTN1, MS_BTN3
+		G(S(KC_S)),   KC_GRV,  KC_PSLS, KC_PAST,  KC_PMNS,
+        C(S(KC_ESC)), KC_7,    KC_8,    KC_9,     KC_PPLS,
+        C(KC_S)),     KC_4,    KC_5,    KC_6,
+		KC_LCAP,      KC_1,    KC_2,    KC_3,     KC_PENT,
+		MS_BTN3,      KC_0,    KC_DOT,
+		MS_BTN2,      MS_BTN1, MS_BTN3
     ),
 
   [1] = LAYOUT(
-		KC_LGUI(KC_LSFT(KC_S)),   KC_GRV,  KC_PSLS, KC_PAST,  KC_PMNS,
-        KC_LCTL(KC_LSFT(KC_ESC)), KC_7,    KC_8,    KC_9,     KC_PPLS,
-        KC_LCTL(KC_S)),           KC_4,    KC_5,    KC_6,
-		KC_LCAP,                  KC_1,    KC_2,    KC_3,     KC_PENT,
-		MS_BTN3,                  KC_0,    KC_DOT,
-		MS_BTN2,                  MS_BTN1, MS_BTN3
+		G(S(KC_S)),   KC_GRV,  KC_PSLS, KC_PAST,  KC_PMNS,
+        C(S(KC_ESC)), KC_7,    KC_8,    KC_9,     KC_PPLS,
+        C(KC_S)),     KC_4,    KC_5,    KC_6,
+		KC_LCAP,      KC_1,    KC_2,    KC_3,     KC_PENT,
+		MS_BTN3,      KC_0,    KC_DOT,
+		MS_BTN2,      MS_BTN1, MS_BTN3
     )
 };
 
